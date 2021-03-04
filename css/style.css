@@ -490,12 +490,18 @@ body {
 .page__context {
   background: #10375C;
   height: 460px;
-  width: 1440px;
+  width: 100%;
+  /* width: 1440px; */
 }
 
 .context-page {
   display: inline-block;
   margin: 0 208px 0 0;
+}
+
+.context-page__columns {
+  margin: 0 auto;
+  width: 1440px;
 }
 
 .context-page__column {
